@@ -16,3 +16,15 @@ console.log(names);
 
 names.shift();
 console.log(names);
+
+names.forEach(function(value,index){
+    console.log("value = ", value, " index = ", index)
+})
+
+console.log("================")
+names.forEach((value,index) =>{
+    console.log(`
+        value = ${value}
+        index = ${index}
+        `)
+})
