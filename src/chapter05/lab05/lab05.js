@@ -45,7 +45,7 @@ products.unshift(
 console.log("--------")
 console.log(products)
 console.log("--------")
-
+ 
 //xoa san pham cuoi cung
 products.pop();
 console.log(products)
